@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>new-javascript</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="calculatorBoder">
+
+            
+                <input class="input" type="text" id="myInput">
+        
+                <div class="allBtn">
+    <button class="btn" onclick="clearInput()">C</button>
+    <button class="btn" onclick="btn('%')">%</button>
+    <button class="btn" onclick="backspace()"><i class='fas fa-arrow-left'></i></button>
+    <button class="btn" onclick="btn('/')">/</button>
+
+    <button class="btn" onclick="btn('7')">7</button>
+    <button class="btn" onclick="btn('8')">8</button>
+    <button class="btn" onclick="btn('9')">9</button>
+    <button class="btn" onclick="btn('*')">*</button>
+
+    <button class="btn" onclick="btn('4')">4</button>
+    <button class="btn" onclick="btn('5')">5</button>
+    <button class="btn" onclick="btn('6')">6</button>
+    <button class="btn" onclick="btn('-')">-</button>
+
+    <button class="btn" onclick="btn('1')">1</button>
+    <button class="btn" onclick="btn('2')">2</button>
+    <button class="btn" onclick="btn('3')">3</button>
+    <button class="btn" onclick="btn('+')">+</button>
+
+    <button class="btn" onclick="btn('00')">00</button>
+    <button class="btn" onclick="btn('0')">0</button>
+    <button class="btn" onclick="btn('.')">.</button>
+    <button class="btn" onclick="calculate()">=</button>
+  </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- <h1 class="tital">
+        New_Javascritp
+    </h1>
+    <h2 id="text"></h2>
+
+    <button onclick="btn()">
+        edidtongPrompt
+    </button> -->
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
